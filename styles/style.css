@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Mulish", sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 55px;
+    position: relative;
+    
+}
+#menu-icon{
+    width: 48px;
+    height: 56.01px;
+    margin-left: 20px;
+  
+    margin-left: 80px;
+ 
+}
+.menu-brand{
+    
+    font-size: 2.1rem;
+    font-weight: 800;
+    position: absolute;
+    left: 10px;
+    margin-left: 120px;
+    margin-top: 5px;
+
+}
+.hero{
+    color: rgb(19, 19, 24);
+ 
+}
+.travel{
+    color:rgb(255, 84, 0) ;
+}
+#home{
+    color: rgb(255, 84, 0);
+    font-size: 18px;
+    font-weight: 700;
+}
+.menu-item{
+    display: flex;
+    margin-right: 30px;
+  
+}
+#menu-list{
+    list-style: none;
+    text-align: center;
+}
+.menu-link{
+    text-decoration: none;
+    margin-right: 44px;
+    color: rgb(66, 66, 71);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+}
+.banner-text{
+    width: 676px;
+    height: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.banner-header{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.banner-subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.banner-information{
+    width: 800px;
+    height: 84px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#info{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-right: 24px;
+    text-align:center ;
+    border: none;
+    
+}
+#info ::placeholder{
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+
+}
+.popular-tour{
+    display: flex;
+   
+}
+.popular-tour-left{
+    width: 577px;
+    height: 466px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.popular-tour-heading{
+    color: rgb(19, 19, 24);
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.popular-tour-title{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+    
+
+}
+#popular-tour-subtitle{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 24px;
+    margin-left: 25px;
+
+}
+.popular-tour-right{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
